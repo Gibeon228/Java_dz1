@@ -2,7 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(Character.toUpperCase('a'));
+        double x = 2;
+        int n = 10;
+        x = Math.pow(x,n);
+        System.out.println(x);
     }
 }
